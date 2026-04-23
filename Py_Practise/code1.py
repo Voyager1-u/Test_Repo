@@ -40,5 +40,5 @@ for i in l:
             d.append(i)
 print("duplicate elements are: ",d)'''
 
-
+gefugvfqfvqebf
 
