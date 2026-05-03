@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.0 on win32)" generated="2026-05-03T11:05:24.898012" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Code1" source="C:\Users\Hello\PycharmProjects\Interview_Practise_Py_Automation\Robot_Practise\robot_code1.robot">
+<test id="s1-t1" name="Divide Test" line="24">
+<kw name="Divide" owner="robot_code1">
+<msg time="2026-05-03T11:05:24.983960" level="INFO">${result} = Cannot divide by zero</msg>
+<var>${result}</var>
+<arg>10</arg>
+<arg>0</arg>
+<status status="PASS" start="2026-05-03T11:05:24.983960" elapsed="0.000999"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-03T11:05:24.985961" level="INFO">Cannot divide by zero</msg>
+<arg>${result}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-03T11:05:24.984959" elapsed="0.001002"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-05-03T11:05:24.986958" elapsed="0.000999"/>
+</kw>
+<status status="PASS" start="2026-05-03T11:05:24.979963" elapsed="0.008995"/>
+</test>
+<status status="PASS" start="2026-05-03T11:05:24.903008" elapsed="0.087948"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Code1">Robot Code1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
