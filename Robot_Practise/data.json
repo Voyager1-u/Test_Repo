@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Aarav Mehta",
+    "age": 28,
+    "profession": "Software Engineer",
+    "location": "India"
+  },
+  {
+    "name": "Sophia Müller",
+    "age": 32,
+    "profession": "Data Analyst",
+    "location": "Germany"
+  },
+  {
+    "name": "Liam Johnson",
+    "age": 24,
+    "profession": "QA Tester",
+    "location": "USA"
+  },
+  {
+    "name": "Emma Brown",
+    "age": 29,
+    "profession": "Product Manager",
+    "location": "UK"
+  },
+  {
+    "name": "Noah Garcia",
+    "age": 35,
+    "profession": "DevOps Engineer",
+    "location": "Canada"
+  }
+]
