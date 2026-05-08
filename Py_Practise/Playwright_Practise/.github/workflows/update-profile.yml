@@ -1,0 +1,36 @@
+name: Update Naukri Profile
+
+on:
+  schedule:
+    - cron: '30 1 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Install Playwright Browser
+        run: |
+          playwright install chromium
+
+      - name: Run Playwright Script
+        env:
+          NAUKRI_EMAIL: ${{ secrets.NAUKRI_EMAIL }}
+          NAUKRI_PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}
+        run: |
+          python Naukri_Profile_Auto_Update.py
