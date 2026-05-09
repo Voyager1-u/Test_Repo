@@ -1,4 +1,4 @@
-name: Update Naukri Profile
+name: Update Naukri Profile Daily
 
 on:
   schedule:
